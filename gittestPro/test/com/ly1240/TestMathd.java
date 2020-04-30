@@ -7,7 +7,18 @@ public class TestMathd {
         Account account = new Account();
         account.setName("nh");
         System.out.println(account.getName());
-        for (int i = 0; i < 20; i++) {
+       test();
+    }
+
+    public static void test(){
+        int i = 0;
+        while (true){
+
+            if(i==5){
+
+                break;
+            }
+            i++;
             System.out.println(i);
         }
     }
